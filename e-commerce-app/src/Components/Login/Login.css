@@ -1,0 +1,89 @@
+#left{
+    padding: 5rem 4rem;
+    border-right: 2px solid blue;
+}
+#left h4{
+    color :rgb(80, 22, 206);
+    font-size: 25px;
+    margin: 0;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#left h1{
+    color:rgb(234, 39, 221);
+    font-size: 50px;
+    margin: 0;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    gap: 4rem;
+
+}
+.link{
+    padding: 1rem;
+    text-align: center;
+}
+.link span{
+    color: blue;
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+.login-container .error{
+    color: red;
+    font-size: small;
+}
+.login-container form{
+    padding: 1rem ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.login-container input{
+    width: 100%;
+    padding: 1rem 0.5rem;
+    outline: none;
+    box-sizing: border-box;
+
+}
+.login-container input:focus{
+    border: 2px solid rgb(95, 95, 243);
+    box-shadow: 0 4px 8px 0 rgba(blue, blue, blue, 0.2), 0 6px 20px 0 rgba(blue, blue, blue, 0.19)
+}
+.login-container button{
+    width: 100%;
+    border: none;
+    background-color: rgb(95, 95, 235);
+    color: white;
+    padding: 1rem 0.5rem;
+    font-size: large;
+    border-radius: 1rem;
+}
+.input-box{
+    padding: 1rem;
+}
+#register .input-box{
+    padding: 0.5rem;
+}
+#register input{
+    padding: 0.6rem;
+}
+#register button{
+    padding:0.7rem;
+    background-color: rgb(84, 231, 84);
+}
+#success,.fail{
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(132, 236, 132);
+    color: rgb(27, 107, 27);
+    font-size: large;
+    font-weight: bold;
+    margin: 2rem 4rem;
+    border-radius: 1rem;
+}
+#fail{
+    background-color: rgb(206, 98, 98);
+    color:rgb(151, 16, 16)
+}
